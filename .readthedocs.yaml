@@ -10,6 +10,7 @@ sphinx:
 
 python:
   install:
-    - pip
-    - sphinx
-    - sphinx-rtd-theme
+    - method: pip
+      packages:
+        - sphinx
+        - sphinx-rtd-theme
